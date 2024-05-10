@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size:35px;
 }
 
 .navbar-links li {
@@ -34,7 +35,7 @@
 
 .navbar-links a {
     text-decoration: none;
-    color: #fff;
+    color: #76fc81;
 }
 
 .navbar-links a:hover {

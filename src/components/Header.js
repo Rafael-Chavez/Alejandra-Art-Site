@@ -1,11 +1,13 @@
 import React from 'react';
 import './Navbar.css'; // You can create a separate CSS file for styling
+import './Header.css'; // You can create a separate CSS file for styling the header
 
-const Navbar = () => {
+
+const Header = () => {
     return (
-        <nav className="navbar">
-            <div className="navbar-logo">
-                <img src="/path/to/your/logo.png" alt="Logo" className="logo" />
+        <nav className="header">
+            <div className="header-logo">
+                <h1>Art by Alejandra</h1>
             </div>
             <ul className="navbar-links">
                 <li><a href="#">Home</a></li>
@@ -17,4 +19,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
